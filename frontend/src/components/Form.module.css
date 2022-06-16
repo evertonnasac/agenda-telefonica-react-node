@@ -1,0 +1,45 @@
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_container{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+}
+
+.form_control label{
+    margin-bottom: .2em;
+    font-weight: bold;
+    font-size: 1em;
+
+
+}
+
+.form_control input{
+    padding: .7em;
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin-bottom: 1em;
+
+}
+
+.form_control input::placeholder{
+    color: #7b7b7b;
+
+}
+
+.form_control input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #9fc7bb;
+}
