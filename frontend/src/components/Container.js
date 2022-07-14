@@ -1,13 +1,22 @@
 import { Link } from "react-router-dom"
+import styleForm from "./Container.module.css"
 
 
 function Container ({children}){
     return(
-        <div>
-            <h1>Agenda Telefônica</h1>
+        <>  
 
-            {children}
-        </div>
+            <div className={styleForm.head}>
+                <h2 className={styleForm.title}>AGENDA</h2>
+            </div>
+               
+
+            <div className="grid">
+                {children}
+            </div>
+
+        </>
+
     )
 }
 

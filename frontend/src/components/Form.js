@@ -70,7 +70,6 @@ function Form(){
     
     return (
         <section className={stylesForm.form_container}>
-            <Link to = "/">Voltar</Link>
             <form onSubmit={handleSubmit} className={stylesForm.form_control}>
             <label htmlFor = "name ">Nome:</label>
                 <input 
@@ -102,7 +101,13 @@ function Form(){
                 onChange = {handleChange}
                 />
 
-                <input type = "submit" value={(contact.id)? "Editar" : "Adicionar"}/>
+                <div className={stylesForm.actions}>
+
+                    <input type = "submit" value={(contact.id)? "Editar" : "Adicionar"}/>
+                    <Link to = "/" className = {stylesForm.voltar}>Voltar</Link>
+
+                </div>
+                
             </form>
         </section>
         

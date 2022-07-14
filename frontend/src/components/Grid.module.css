@@ -1,3 +1,4 @@
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -6,15 +7,13 @@ table {
 th, td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 td a{
-    border: 1px solid;
+    border: 2px solid;
     padding: 3px;
     margin-left: 1em;
     cursor: pointer;
@@ -29,6 +28,28 @@ td div{
 
 tr:hover{background-color:#f5f5f5}
 
+.add_contact{
+    text-align: center;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    margin-bottom: 15px;
+    width: 200px;
+    position: relative;
+    background-color: rebeccapurple;
+}
+
+.add_contact a{
+    color: white;
+}
+
+.add_contact a:hover{
+    color: #f89e9e;
+}
+
+
+
 .link_delete{
     color: red ;
 }
@@ -41,5 +62,5 @@ tr:hover{background-color:#f5f5f5}
     color: blue ;
 }
 .link_edit:hover{
-    background-color: aquamarine;
+    background-color: #9fc7bb;
 }

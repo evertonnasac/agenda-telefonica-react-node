@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    
+    position: relative;
+    left: 10%;
+    font-size: 50px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    font-family:  Arial, sans-serif;
+    color: white;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+
+
+.add_contact a{
+    padding: 0;
+    color: white;
+    text-align: center;
+
+}
+
+.add_contact:hover{
+    transform: scale(1.25);
+
+}
+

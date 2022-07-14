@@ -42,7 +42,11 @@ function Grid (){
 
     return (
         <section >
-         <Link to = "/create">Adicionar contato</Link>
+
+            <div class = {styles.add_contact}>
+                <Link to = "/create">Adicionar contato</Link>
+            </div>
+           
             <table>
                 <thead>
                     <tr>
@@ -63,11 +67,17 @@ function Grid (){
                         <td>
                             <div className={styles.grid_actions}>
                                 <Link to = 
-                                {`/edit/?name=${contact.name}&email=${contact.email} &phone=${contact.phone}&id=${contact.id}&image=${contact.image}`}
+                                {`/edit/?name=${contact.name}
+                                &email=${contact.email}
+                                &phone=${contact.phone}
+                                &id=${contact.id}
+                                &image=${contact.image}`}
                                 className={styles.link_edit} >Editar</Link>
-                                <a onClick={()=>removeContact(contact.id)} className={styles.link_delete}>Excluir</a>
+
+                                <a onClick={()=>removeContact(contact.id)} 
+                                className={styles.link_delete}>Excluir</a>
                             </div>
-                            </td>
+                        </td>
                     </tr>)}
                 </tbody>
             </table>
