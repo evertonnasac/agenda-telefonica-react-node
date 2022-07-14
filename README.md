@@ -29,7 +29,7 @@ Futuramente, as imagens ficarão salvas em uma pasta no servidor com a referênc
 ## Para baixar o projeto:
 ```
 Clone o repositorio:
-$ git clone 
+$ git clone https://github.com/evertonnasac/agenda-telefonica-react-node
 
 Instale as dependências
 $ npm install
