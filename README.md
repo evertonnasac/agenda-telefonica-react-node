@@ -26,6 +26,28 @@ As açoes que o usuário poderá realizar são:
 Ainda não é possível carregar uma salvar imagens para os contatos, o sistema salva apenas textos digitados manualmente no campo input de imagem.
 Futuramente, as imagens ficarão salvas em uma pasta no servidor com a referência salva no banco de dados
 
+## Para baixar o projeto:
+```
+Clone o repositorio:
+$ git clone 
+
+Instale as dependências
+$ npm install
+
+Entre no diretório backend para subir o servidor:
+$ cd backend
+
+Execute o comando
+$ node index.js
+
+Entre no diretório frontend:
+$ cd frontend
+
+Execute o comando
+$ npm start
+
+
+```
 
 
 
