@@ -1,4 +1,4 @@
-# agenda-telefonica-react-node
+# Agenda Telefônica
 ## Tecnologias utilizadas:
 
 - React 
