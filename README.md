@@ -23,8 +23,8 @@ As açoes que o usuário poderá realizar são:
 - Exluir contato
 
 ## Atualizações futuras
-Ainda não é possível carregar uma salvar imagens para os contatos, o sistema salva apenas textos digitados manualmente no campo input de imagem.
-Futuramente, as imagens ficarão salvas em uma pasta no servidor com a referência salva no banco de dados
+Ainda não é possível salvar imagens para os contatos, o sistema salva apenas textos digitados no campo input de imagem.
+Futuramente, as imagens ficarão salvas em uma pasta no servidor com a url salva no campo "image" do banco de dados
 
 ## Para baixar o projeto:
 ```
